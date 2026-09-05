@@ -1,0 +1,118 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "cli_default_open_behavior": "existing_window",
+  "markdown_preview_font_size": 15.0,
+  "agent_buffer_font_size": 15.0,
+  "agent_ui_font_size": 15.0,
+  "ui_font_weight": 600.0,
+  "ui_font_family": "JetBrains Mono",
+  "buffer_line_height": {
+    "custom": 1.399999976158142,
+  },
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "JetBrains Mono",
+  "show_edit_predictions": false,
+  "terminal": {
+    "working_directory": "current_project_directory",
+    "font_weight": 600.0,
+    "font_size": 15.0,
+    "font_family": "JetBrains Mono",
+    "shell": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe",
+    },
+  },
+  "active_pane_modifiers": {
+    "border_size": 1.0,
+  },
+  "preview_tabs": {
+    "enabled": false,
+  },
+  "tab_bar": {
+    "show": true,
+  },
+  "completions": {
+    "words": "disabled",
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "outline_panel": {
+    "button": false,
+  },
+  "debugger": {
+    "dock": "left",
+  },
+  "search": {
+    "button": false,
+  },
+  "agent": {
+    "tool_permissions": {
+      "tools": {
+        "fetch": {
+          "default": "allow",
+        },
+      },
+    },
+    "sandbox_permissions": {
+      "network_hosts": ["zed.dev"],
+    },
+    "default_profile": "ask",
+    "default_model": {
+      "effort": "medium",
+      "provider": "zed.dev",
+      "model": "gpt-5.6-luna",
+      "enable_thinking": true,
+    },
+    "sidebar_side": "right",
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "minimap": {
+    "show": "always",
+  },
+  "autosave": "off",
+  "show_whitespaces": "none",
+  "format_on_save": "on",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false,
+  },
+  "base_keymap": "VSCode",
+  "icon_theme": "Bearded Icons",
+  "ui_font_size": 15.0,
+  "buffer_font_size": 16.0,
+  "theme": "VSCode Dark Modern",
+  "experimental.theme_overrides": {
+    "syntax": {
+      "type": {
+        "color": "#4EC9B0",
+      },
+      "type.builtin": {
+        "color": "#4EC9B0",
+      },
+    },
+    "tab.active_background": "#424242",
+  },
+  "indent_guides": {
+    "line_width": 1,
+    "active_line_width": 1,
+    "coloring": "indent_aware",
+    // "background_coloring": "indent_aware",
+  },
+  "colorize_brackets": true,
+}
